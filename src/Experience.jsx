@@ -1,4 +1,3 @@
-import React from 'react';
 import { Html, MeshDistortMaterial, OrbitControls } from '@react-three/drei';
 import { motion as fm } from 'framer-motion';
 
@@ -20,7 +19,12 @@ const Experience = () => {
                                    FUN!!!
                               </span>
                          </div>
-                         <a className='text-green-500 underline font-light hover:text-green-600 transition-all duration-500' href="https://github.com/LumisDev/tarwig">Visit my repo</a>
+                         <a
+                              className='text-green-500 underline font-light hover:text-green-600 transition-all duration-500'
+                              href='https://github.com/LumisDev/tarwig'
+                         >
+                              Visit my repo
+                         </a>
                     </fm.div>
                </Html>
                <pointLight position={[1, 1, 1]} />
